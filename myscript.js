@@ -37,7 +37,7 @@ setInterval(()=>{
   if(counter_4 == 60){
     clearInterval();
   }else{
-    counter_4+=1;
+    counter_4 += 1;
     numb_4.textContent = counter_4 + "%" ;
   }
 }, 30);
